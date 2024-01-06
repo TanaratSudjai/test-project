@@ -14,7 +14,7 @@
         <div class="nav2 collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">HOMEPAGE</a>
+                    <a class="nav-link" href="homepage.php">HOMEPAGE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="cradpage.php">CRADBOOK</a>
@@ -24,6 +24,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="indexS.php">EDIT & DELETE</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" style="color: red;" href="index.php">LOGOUT</a>
                 </li>
             </ul>         
         </div>

@@ -1,39 +1,37 @@
 <?php
- include 'conn.php'; 
- include 'systemlogin.php'; 
+    include 'conn.php';
+    include 'res.php';
+       
 ?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USER LOGINPAGE</title>
+    <title>USER RSGISTRATION</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-
-    <div class="container">
-        <form class="form" action="" method="post">
-            <h2>USER <br> LOGINPAGE</h2>
-            <label for="username">USERNAME</label>
-            <input class="username" type="text" name="username" required>
-            <br>
-            <label for="password">PASSWORD</label>
-            <input class="passwd" type="password" name="password" required>
-            <br>
-            <div class="btn">
-                <input class="submit" type="submit" value="LOGIN">
-                <a class="res" href="register.php">Register ?</a>
-            </div>
-        </form>
-        <img src="https://star.daythree.net/verification/dist/img/bg_login.png" alt="" class="bg">
-    </div>
+        <div class="container">
+            <img src="https://www.wsioms.co.za/wp-content/uploads/2021/09/New-Project-15.png" alt="" class="bg">
+            <form class="form" action="register.php" method="post">
+                <h2>USER RSGISTRATION</h2>
+                <label for="username">USERNAME</label>
+                <input class="username" type="text" name="username" required>
+                <br>
+                <label for="password">PASSWORD</label>
+                <input class="passwd" type="password" name="password" required>
+                <br>
+                <div class="btn">
+                    <input class="submit" type="submit" value="REGISTER">
+                    <a class="cls" href="index.php">CANCLE</a>
+                </div>
+            </form>
+        </div>
+ 
 </body>
 </html>
+
 
 <style>
     body{
@@ -92,18 +90,18 @@
     width: 60%;
     border: solid #4965c9;
 }
-.btn{
-    display: flex;
-    gap: 15px;
-    font-weight: bold;
-}
 .btn a{
-    margin-top: 12px;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    padding: 7px;
+    width: 30%;
+    border: red solid ;
     text-decoration: none;
-    color: red;
 }
-.submit:hover{
-    box-shadow: 1px 1px 15px 1px #4965c9;
+
+.btn a:hover, .submit:hover{
+    box-shadow: 1px 1px 1px 1px ;
 }
 
 
