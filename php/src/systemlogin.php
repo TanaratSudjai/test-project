@@ -11,12 +11,11 @@
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row["password"])) {
-            echo "<script>alert('Login successful!.. ')</script>";
             echo "<script>window.location.href='homepage.php'</script>";   
         } else {
-            echo "Invalid password";
+            echo "<script>alert('Login Password or Username error.. ')</script>";
         }
     } else {
-        echo "User not found";
+        echo "<script>alert('Username null in database go to Re.. ')</script>";
     }
 }

@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/gradient-podium-background_23-2149156760.jpg?t=st=1704615675~exp=1704616275~hmac=433bcd4851fc0a51941e81f7bd23ddd4da52918f37d0f6dc31ff0d2e3f2532dc');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+      gap: 15px;
+      background-color: #fff;
+      display: flex;
+      border-radius: 25px;
+      padding: 30px;
+      margin-top: 70px;
+      box-shadow: 5px 3px 2px 3px #f2f2f2;
+  }
+  .container h3{
+      padding: 14px;
+      border-radius: 15px;
+      color: #4965c9;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+  .form{
+      font-family: Arial, Helvetica, sans-serif;
+      display: grid;
+      width: 100%;
+      margin-left: 10px;
+  }
+
+  .form .text{
+      padding: 5px;
+      width: 90%;
+      border-radius: 5px;
+      border: solid 2px rgb(210, 210, 210);
+  }
+  #previewImg{
+      width: 150px;
+      height: 180px;
+      border: none;
+  }
+  .container img{
+      padding: 15px;
+      width: 50%;
+      height: 50%;
+  }
+  .preimage{
+      margin-top: 15px;
+  }
+
+
+
+  .action{
+  display: flex;
+}
+
+.button {
+
+  font-family: inherit;
+  font-size: 15px;
+  background: #212121;
+  color: white;
+  fill: rgb(255, 255, 255);
+  padding: 0.4em 2em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  font-weight: 1000;
+
+}
+
+.button span {
+display: block;
+margin-left: 0.3em;
+transition: all 0.3s ease-in-out;
+}
+
+.button svg {
+display: block;
+transform-origin: center center;
+transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: #4965c9;
+  background: linear-gradient(90deg, #4965c9 0%, #4965c9 100%); 
+}
+
+.button:hover .svg-wrapper {
+transform: scale(1.25);
+transition: .5s linear;
+}
+
+.button:hover svg {
+transform: translateX(1.2em) scale(1.1);
+fill: #fff;
+}
+
+.button:hover span {
+  opacity: 0;
+  transition: .5s linear;
+      
+
+}
+
+.button:active {
+transform: scale(0.95);
+}
+.action a{
+  font-family: inherit;
+  font-size: 15px;
+  background: #212121;
+  color: white;
+  fill: rgb(155, 153, 153);
+  padding: 0.4em 2em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  font-weight: 1000;
+  margin-left: 5px;
+}
+.action span{
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+
+}
+.action a:hover{
+  color: #fff;
+  background: rgb(165,2,35);
+  background: linear-gradient(90deg, rgba(165,2,35,0.999964951801033) 0%, rgba(236,54,29,1) 100%);
+  text-decoration: none;
+}

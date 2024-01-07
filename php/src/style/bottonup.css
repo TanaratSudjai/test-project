@@ -8,7 +8,7 @@
     font-size: 15px;
     background: #212121;
     color: white;
-    fill: rgb(155, 153, 153);
+    fill: rgb(255, 255, 255);
     padding: 0.4em 2em;
     padding-left: 0.9em;
     display: flex;
@@ -32,8 +32,8 @@ transition: transform 0.3s ease-in-out;
 }
 
 .button:hover {
-    background: rgb(2,101,165);
-    background: linear-gradient(90deg, rgba(2,101,165,0.999964951801033) 0%, rgba(42,151,180,1) 100%); 
+    background: #4965c9;
+    background: linear-gradient(90deg, #4965c9 0%, #4965c9 100%); 
 }
 
 .button:hover .svg-wrapper {

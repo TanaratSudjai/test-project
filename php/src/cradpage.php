@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INDEX PAGE</title>
-
-    <link rel="stylesheet" href="./style/search.css">
     <style>
             .card {
             transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -30,8 +28,8 @@
     <?php
     include 'navindex.php';
     ?> 
-    <div class="mt-5 p-5">
-        <div class="container mt-5">
+   
+        <div class="container">
             <div class="row">
                 <?php
                 include('conn.php');
@@ -62,9 +60,13 @@
                 }
                 ?>
             </div>
-        </div>
     </div>
 
 </body>
-
 </html>
+
+<style>
+    .container{
+        margin-top: 100px;
+    }
+</style>
